@@ -1,0 +1,10 @@
+
+
+from datetime import datetime
+
+for x in "banana":
+  print(x)
+
+  now = datetime.now()
+  
+  print(now)

@@ -1,0 +1,17 @@
+import csv
+# Patrick Reed Loop, List, Parse & CSV practice
+# https://www.geeksforgeeks.org/writing-csv-files-in-python/
+CSV_Headers = ['One', 'Two', 'Three', 'Four', 'Five']
+Rick = ['Never ', 'Gonna ', 'Give ', 'You ', 'Up ']
+Roll = ['Never ', 'Gonna ', 'Let ', 'You ', 'Down ']
+
+Q = open("output.csv", "w", newline="")
+writer = csv.writer(Q)
+writer.writerow(CSV_Headers)
+Q.close()
+
+f = open("output.csv", "a")
+writer = csv.writer(f)
+writer.writerow(Rick)
+writer.writerow(Roll)
+f.close()

@@ -1,0 +1,16 @@
+
+# Patrick Reed Loop & List practice
+Rick = ['Never ', 'Gonna ', 'Give ', 'You ', 'Up, ']
+Roll = ['Never ', 'Gonna ', 'Let ', 'You ', 'Down ']
+
+for i in Rick:
+    print(i, end="")
+
+for u in Roll:
+    print(u, end="")
+
+print("")
+
+for u in Roll:
+    first_chars = u[0:3]
+    print('Parse First 3 characters of second List Elements: ', first_chars)
